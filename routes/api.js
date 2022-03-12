@@ -9,10 +9,10 @@ var zahirr = db.get("zahirr");
 	console.log('')  
 }
  
-var creator = "someone"
+var creator = "alazery"
 var neoxr = "yntkts"
-var zeks = "DitzzRestKey"
-var zeks2 = "apivinz"
+var zeks = "api-alazery"
+var zeks2 = "api-alazery"
 var secure = require('ssl-express-www');
 var cors = require('cors');
 var fetch = require('node-fetch');
