@@ -521,7 +521,7 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-uppercase mb-1">REQUEST TOTAL</div>
-                                            <div class="h5 mb-0 font-weight-bold" id="reqweb">loading</div>
+                                            <div class="h5 mb-0 font-weight-bold" id="reqweb">19033</div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-calendar fa-2x text-primary"></i>
@@ -563,7 +563,13 @@
         <i class="fas fa-angle-up"></i>
     </a>
    </script>
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.all.min.js"></script>
    <script>
+Swal.fire({
+  title: 'Rest Api by @Alazery',
+  showConfirmButton: false,
+  timer: 1500
+})
 var xhr = new XMLHttpRequest();
 xhr.open("GET", "https://api.countapi.xyz/hit/mee/visits");
 xhr.responseType = "json";
