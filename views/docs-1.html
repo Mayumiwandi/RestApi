@@ -15,13 +15,6 @@
         width: 38px;
         border-radius: 50%;
       }
-      .gif{
-        position: fixed;
-        bottom: 0px;
-        right: 10px;
-        width: 100px;
-        z-index: 9999;
-      }
     </style>
     <link href="https://zeezxyz.github.io/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://zeezxyz.github.io/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -570,13 +563,17 @@
             <!-- Footer -->
         </div>
     </div>
-    <img src="./anime.gif" alt="gif" class="gif" />
    </script>
      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.all.min.js"></script>
    <script>
 Swal.fire({
-  title: 'Rest Api by @Alazery',
-  showConfirmButton: true
+  title: 'Free Rest Api',
+  text: 'Jika ada bug lapor ke admin',
+  imageUrl: 'https://telegra.ph/file/eefb81885865b08526a83.png',
+  imageWidth: 500,
+  imageHeight: 160,
+  imageAlt: 'banner',
+  //ghkk
 })
 var xhr = new XMLHttpRequest();
 xhr.open("GET", "https://api.countapi.xyz/hit/mee/visits");
